@@ -1,0 +1,12 @@
+{
+  "name": "Basic HTTP",
+  "protocol": "http",
+  "request": {
+    "path": "/"
+  },
+  "response": {
+    "format": {
+      "try": ["json","xml","string","bytes"]
+    }
+  }
+}
